@@ -83,5 +83,5 @@ indexing you can restore the `<sdk/>` tag with it's explicit platform version.
 ##### Intellij can't render the layout
 
 When you first open the layout `activity_main.xml` file you may get an error stating that Intellij cannot find a 
-`R$style` class stops the layout from rendering. This can be fixed by rebuilding the project through Intellij with
+`R$style` class which stops the layout from rendering. This can be fixed by rebuilding the project through Intellij with
 "Build -> Rebuild Project", then closing and reopening the project.

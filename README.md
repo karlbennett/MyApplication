@@ -68,3 +68,20 @@ project.
 Unfortunately it will not automatically create the default run configuration, you will have to add this manually, though 
 this can be done by just adding an Android configuration that is set to the current module with all the other settings 
 left as default.
+
+### Troubleshooting
+
+##### Intellij can't find the platform version
+
+Sometime Intellij will complain that it can't find the Android platform you have specified, this seems to happen if you 
+open the project with the platform version set to the highest version you have installed. So this will happen with this 
+project if the highest platform version you have installed is 23. To fix this remove the whole `<sdk/>` tag from the 
+`pom.xml` so that no platform version is explicitly configured. This will cause Intellij to choose the highest platform 
+version by default and succeed to configure the project and add the Android SDK. Once Intellij finishes it's setup and 
+indexing you can restore the `<sdk/>` tag with it's explicit platform version.
+
+##### Intellij can't render the layout
+
+When you first open the layout `activity_main.xml` file you may get an error stating that Intellij cannot find a 
+`R$style` class stops the layout from rendering. This can be fixed by rebuilding the project through Intellij with
+"Build -> Rebuild Project", then closing and reopening the project.

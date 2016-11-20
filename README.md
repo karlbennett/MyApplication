@@ -7,7 +7,7 @@ application. It is here to show how you can create an equivalent project using M
 
 The reason you may want to do this is so that you can keep your Android projects in line with the rest of your Java 
 projects. Also this Maven project is of course by it's nature much simpler than the Gradle project and will also build 
-faster, provide a much more conventional/predictable structure, and be less prone to the build script degradation of a 
+faster, provide a much more conventional/predictable structure, and is less prone to the build script degradation of a 
 Gradle project.
 
 ### Prerequisites
@@ -65,6 +65,6 @@ instructions can be found in it's documentation.
 Intellij will open and configure this project correctly just like a Gradle project, just open it like any other Maven 
 project.
 
-Though it will not automatically create the default run configuration, you will have to add this manually, though this 
-can be done by just adding an Android configuration that is set to the current module with all the other settings left 
-as default.
+Unfortunately it will not automatically create the default run configuration, you will have to add this manually, though 
+this can be done by just adding an Android configuration that is set to the current module with all the other settings 
+left as default.

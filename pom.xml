@@ -12,6 +12,8 @@
 
     <name>MyApplication</name>
 
+    <description>The is a Maven equivalent project of the Android Gradle "Build Your First App" example.</description>
+
     <properties>
         <project.maindir>${project.basedir}/src/main</project.maindir>
     </properties>

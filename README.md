@@ -1,9 +1,9 @@
 MyApplication
 =============
 
-This project is a translation of the 
+This project is a Maven translation of the 
 [Build Your First App](https://developer.android.com/training/basics/firstapp/creating-project.html) android example 
-application. It is here to show you how you can create an equivalent project using Maven instead of Gradle. 
+application. It is here to show how you can create an equivalent project using Maven instead of Gradle. 
 
 The reason you may want to do this is so that you can keep your Android projects in line with the rest of your Java 
 projects. Also this Maven project is of course by it's nature much simpler than the Gradle project and will also build 

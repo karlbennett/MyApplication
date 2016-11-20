@@ -7,8 +7,8 @@ application. It is here to show how you can create an equivalent project using M
 
 The reason you may want to do this is so that you can keep your Android projects in line with the rest of your Java 
 projects. Also this Maven project is of course by it's nature much simpler than the Gradle project and will also build 
-faster, provide a much more conventional/predictable structure, and is less prone to the build script degradation of a 
-Gradle project.
+faster, have smoother IDE integration, provide a much more conventional/predictable structure, and is less prone to the 
+build script degradation of a Gradle project.
 
 ### Prerequisites
 
